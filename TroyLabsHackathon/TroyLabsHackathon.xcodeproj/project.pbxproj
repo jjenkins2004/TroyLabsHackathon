@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBF8C61D2C92920E00CC0C67 /* TroyLabsHackathonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF8C61C2C92920E00CC0C67 /* TroyLabsHackathonApp.swift */; };
+		EBF8C61F2C92920E00CC0C67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF8C61E2C92920E00CC0C67 /* ContentView.swift */; };
+		EBF8C6212C92921000CC0C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF8C6202C92921000CC0C67 /* Assets.xcassets */; };
+		EBF8C6242C92921000CC0C67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF8C6232C92921000CC0C67 /* Preview Assets.xcassets */; };
+		EBF8C62E2C92921000CC0C67 /* TroyLabsHackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF8C62D2C92921000CC0C67 /* TroyLabsHackathonTests.swift */; };
+		EBF8C6382C92921000CC0C67 /* TroyLabsHackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF8C6372C92921000CC0C67 /* TroyLabsHackathonUITests.swift */; };
+		EBF8C63A2C92921000CC0C67 /* TroyLabsHackathonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF8C6392C92921000CC0C67 /* TroyLabsHackathonUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBF8C62A2C92921000CC0C67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF8C6112C92920E00CC0C67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF8C6182C92920E00CC0C67;
+			remoteInfo = TroyLabsHackathon;
+		};
+		EBF8C6342C92921000CC0C67 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBF8C6112C92920E00CC0C67 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBF8C6182C92920E00CC0C67;
+			remoteInfo = TroyLabsHackathon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBF8C6192C92920E00CC0C67 /* TroyLabsHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TroyLabsHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF8C61C2C92920E00CC0C67 /* TroyLabsHackathonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroyLabsHackathonApp.swift; sourceTree = "<group>"; };
+		EBF8C61E2C92920E00CC0C67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EBF8C6202C92921000CC0C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBF8C6232C92921000CC0C67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBF8C6292C92921000CC0C67 /* TroyLabsHackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroyLabsHackathonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF8C62D2C92921000CC0C67 /* TroyLabsHackathonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroyLabsHackathonTests.swift; sourceTree = "<group>"; };
+		EBF8C6332C92921000CC0C67 /* TroyLabsHackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroyLabsHackathonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBF8C6372C92921000CC0C67 /* TroyLabsHackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroyLabsHackathonUITests.swift; sourceTree = "<group>"; };
+		EBF8C6392C92921000CC0C67 /* TroyLabsHackathonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroyLabsHackathonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBF8C6162C92920E00CC0C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF8C6262C92921000CC0C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF8C6302C92921000CC0C67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBF8C6102C92920E00CC0C67 = {
+			isa = PBXGroup;
+			children = (
+				EBF8C61B2C92920E00CC0C67 /* TroyLabsHackathon */,
+				EBF8C62C2C92921000CC0C67 /* TroyLabsHackathonTests */,
+				EBF8C6362C92921000CC0C67 /* TroyLabsHackathonUITests */,
+				EBF8C61A2C92920E00CC0C67 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBF8C61A2C92920E00CC0C67 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBF8C6192C92920E00CC0C67 /* TroyLabsHackathon.app */,
+				EBF8C6292C92921000CC0C67 /* TroyLabsHackathonTests.xctest */,
+				EBF8C6332C92921000CC0C67 /* TroyLabsHackathonUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBF8C61B2C92920E00CC0C67 /* TroyLabsHackathon */ = {
+			isa = PBXGroup;
+			children = (
+				EBF8C61C2C92920E00CC0C67 /* TroyLabsHackathonApp.swift */,
+				EBF8C61E2C92920E00CC0C67 /* ContentView.swift */,
+				EBF8C6202C92921000CC0C67 /* Assets.xcassets */,
+				EBF8C6222C92921000CC0C67 /* Preview Content */,
+			);
+			path = TroyLabsHackathon;
+			sourceTree = "<group>";
+		};
+		EBF8C6222C92921000CC0C67 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EBF8C6232C92921000CC0C67 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EBF8C62C2C92921000CC0C67 /* TroyLabsHackathonTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF8C62D2C92921000CC0C67 /* TroyLabsHackathonTests.swift */,
+			);
+			path = TroyLabsHackathonTests;
+			sourceTree = "<group>";
+		};
+		EBF8C6362C92921000CC0C67 /* TroyLabsHackathonUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBF8C6372C92921000CC0C67 /* TroyLabsHackathonUITests.swift */,
+				EBF8C6392C92921000CC0C67 /* TroyLabsHackathonUITestsLaunchTests.swift */,
+			);
+			path = TroyLabsHackathonUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBF8C6182C92920E00CC0C67 /* TroyLabsHackathon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF8C63D2C92921000CC0C67 /* Build configuration list for PBXNativeTarget "TroyLabsHackathon" */;
+			buildPhases = (
+				EBF8C6152C92920E00CC0C67 /* Sources */,
+				EBF8C6162C92920E00CC0C67 /* Frameworks */,
+				EBF8C6172C92920E00CC0C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TroyLabsHackathon;
+			productName = TroyLabsHackathon;
+			productReference = EBF8C6192C92920E00CC0C67 /* TroyLabsHackathon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBF8C6282C92921000CC0C67 /* TroyLabsHackathonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF8C6402C92921000CC0C67 /* Build configuration list for PBXNativeTarget "TroyLabsHackathonTests" */;
+			buildPhases = (
+				EBF8C6252C92921000CC0C67 /* Sources */,
+				EBF8C6262C92921000CC0C67 /* Frameworks */,
+				EBF8C6272C92921000CC0C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF8C62B2C92921000CC0C67 /* PBXTargetDependency */,
+			);
+			name = TroyLabsHackathonTests;
+			productName = TroyLabsHackathonTests;
+			productReference = EBF8C6292C92921000CC0C67 /* TroyLabsHackathonTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBF8C6322C92921000CC0C67 /* TroyLabsHackathonUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBF8C6432C92921000CC0C67 /* Build configuration list for PBXNativeTarget "TroyLabsHackathonUITests" */;
+			buildPhases = (
+				EBF8C62F2C92921000CC0C67 /* Sources */,
+				EBF8C6302C92921000CC0C67 /* Frameworks */,
+				EBF8C6312C92921000CC0C67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBF8C6352C92921000CC0C67 /* PBXTargetDependency */,
+			);
+			name = TroyLabsHackathonUITests;
+			productName = TroyLabsHackathonUITests;
+			productReference = EBF8C6332C92921000CC0C67 /* TroyLabsHackathonUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBF8C6112C92920E00CC0C67 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					EBF8C6182C92920E00CC0C67 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					EBF8C6282C92921000CC0C67 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EBF8C6182C92920E00CC0C67;
+					};
+					EBF8C6322C92921000CC0C67 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = EBF8C6182C92920E00CC0C67;
+					};
+				};
+			};
+			buildConfigurationList = EBF8C6142C92920E00CC0C67 /* Build configuration list for PBXProject "TroyLabsHackathon" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBF8C6102C92920E00CC0C67;
+			productRefGroup = EBF8C61A2C92920E00CC0C67 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBF8C6182C92920E00CC0C67 /* TroyLabsHackathon */,
+				EBF8C6282C92921000CC0C67 /* TroyLabsHackathonTests */,
+				EBF8C6322C92921000CC0C67 /* TroyLabsHackathonUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBF8C6172C92920E00CC0C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF8C6242C92921000CC0C67 /* Preview Assets.xcassets in Resources */,
+				EBF8C6212C92921000CC0C67 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF8C6272C92921000CC0C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF8C6312C92921000CC0C67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBF8C6152C92920E00CC0C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF8C61F2C92920E00CC0C67 /* ContentView.swift in Sources */,
+				EBF8C61D2C92920E00CC0C67 /* TroyLabsHackathonApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF8C6252C92921000CC0C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF8C62E2C92921000CC0C67 /* TroyLabsHackathonTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBF8C62F2C92921000CC0C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBF8C63A2C92921000CC0C67 /* TroyLabsHackathonUITestsLaunchTests.swift in Sources */,
+				EBF8C6382C92921000CC0C67 /* TroyLabsHackathonUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBF8C62B2C92921000CC0C67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF8C6182C92920E00CC0C67 /* TroyLabsHackathon */;
+			targetProxy = EBF8C62A2C92921000CC0C67 /* PBXContainerItemProxy */;
+		};
+		EBF8C6352C92921000CC0C67 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBF8C6182C92920E00CC0C67 /* TroyLabsHackathon */;
+			targetProxy = EBF8C6342C92921000CC0C67 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EBF8C63B2C92921000CC0C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EBF8C63C2C92921000CC0C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBF8C63E2C92921000CC0C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TroyLabsHackathon/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-Jenkins.TroyLabsHackathon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBF8C63F2C92921000CC0C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"TroyLabsHackathon/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-Jenkins.TroyLabsHackathon";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EBF8C6412C92921000CC0C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-Jenkins.TroyLabsHackathonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TroyLabsHackathon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TroyLabsHackathon";
+			};
+			name = Debug;
+		};
+		EBF8C6422C92921000CC0C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-Jenkins.TroyLabsHackathonTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TroyLabsHackathon.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TroyLabsHackathon";
+			};
+			name = Release;
+		};
+		EBF8C6442C92921000CC0C67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-Jenkins.TroyLabsHackathonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TroyLabsHackathon;
+			};
+			name = Debug;
+		};
+		EBF8C6452C92921000CC0C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Joshua-Jenkins.TroyLabsHackathonUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TroyLabsHackathon;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBF8C6142C92920E00CC0C67 /* Build configuration list for PBXProject "TroyLabsHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF8C63B2C92921000CC0C67 /* Debug */,
+				EBF8C63C2C92921000CC0C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF8C63D2C92921000CC0C67 /* Build configuration list for PBXNativeTarget "TroyLabsHackathon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF8C63E2C92921000CC0C67 /* Debug */,
+				EBF8C63F2C92921000CC0C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF8C6402C92921000CC0C67 /* Build configuration list for PBXNativeTarget "TroyLabsHackathonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF8C6412C92921000CC0C67 /* Debug */,
+				EBF8C6422C92921000CC0C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBF8C6432C92921000CC0C67 /* Build configuration list for PBXNativeTarget "TroyLabsHackathonUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBF8C6442C92921000CC0C67 /* Debug */,
+				EBF8C6452C92921000CC0C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBF8C6112C92920E00CC0C67 /* Project object */;
+}
