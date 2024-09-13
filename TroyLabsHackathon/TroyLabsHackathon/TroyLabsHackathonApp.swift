@@ -2,7 +2,7 @@
 //  TroyLabsHackathonApp.swift
 //  TroyLabsHackathon
 //
-//  Created by Joshua Jenkins on 9/11/24.
+//  Created by Joshua Jenkins on 9/12/24.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct TroyLabsHackathonApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            homeScreen()
         }
     }
 }

@@ -7,61 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EBF8C61D2C92920E00CC0C67 /* TroyLabsHackathonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF8C61C2C92920E00CC0C67 /* TroyLabsHackathonApp.swift */; };
-		EBF8C61F2C92920E00CC0C67 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF8C61E2C92920E00CC0C67 /* ContentView.swift */; };
-		EBF8C6212C92921000CC0C67 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF8C6202C92921000CC0C67 /* Assets.xcassets */; };
-		EBF8C6242C92921000CC0C67 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBF8C6232C92921000CC0C67 /* Preview Assets.xcassets */; };
-		EBF8C62E2C92921000CC0C67 /* TroyLabsHackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF8C62D2C92921000CC0C67 /* TroyLabsHackathonTests.swift */; };
-		EBF8C6382C92921000CC0C67 /* TroyLabsHackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF8C6372C92921000CC0C67 /* TroyLabsHackathonUITests.swift */; };
-		EBF8C63A2C92921000CC0C67 /* TroyLabsHackathonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF8C6392C92921000CC0C67 /* TroyLabsHackathonUITestsLaunchTests.swift */; };
+		EBB1B4132C93E4F50014B71D /* TroyLabsHackathonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1B4122C93E4F50014B71D /* TroyLabsHackathonApp.swift */; };
+		EBB1B4172C93E4F70014B71D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB1B4162C93E4F70014B71D /* Assets.xcassets */; };
+		EBB1B41A2C93E4F70014B71D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBB1B4192C93E4F70014B71D /* Preview Assets.xcassets */; };
+		EBB1B4242C93E4F70014B71D /* TroyLabsHackathonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1B4232C93E4F70014B71D /* TroyLabsHackathonTests.swift */; };
+		EBB1B42E2C93E4F70014B71D /* TroyLabsHackathonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1B42D2C93E4F70014B71D /* TroyLabsHackathonUITests.swift */; };
+		EBB1B4302C93E4F70014B71D /* TroyLabsHackathonUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1B42F2C93E4F70014B71D /* TroyLabsHackathonUITestsLaunchTests.swift */; };
+		EBB1B43D2C93E6D90014B71D /* homeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB1B43C2C93E6D90014B71D /* homeScreen.swift */; };
+		EBF6CB002C93E9A000DF8D0B /* itemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6CAFF2C93E9A000DF8D0B /* itemView.swift */; };
+		EBF6CB022C93F1F600DF8D0B /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBF6CB012C93F1F600DF8D0B /* CartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		EBF8C62A2C92921000CC0C67 /* PBXContainerItemProxy */ = {
+		EBB1B4202C93E4F70014B71D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EBF8C6112C92920E00CC0C67 /* Project object */;
+			containerPortal = EBB1B4072C93E4F50014B71D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EBF8C6182C92920E00CC0C67;
+			remoteGlobalIDString = EBB1B40E2C93E4F50014B71D;
 			remoteInfo = TroyLabsHackathon;
 		};
-		EBF8C6342C92921000CC0C67 /* PBXContainerItemProxy */ = {
+		EBB1B42A2C93E4F70014B71D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = EBF8C6112C92920E00CC0C67 /* Project object */;
+			containerPortal = EBB1B4072C93E4F50014B71D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = EBF8C6182C92920E00CC0C67;
+			remoteGlobalIDString = EBB1B40E2C93E4F50014B71D;
 			remoteInfo = TroyLabsHackathon;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		EBF8C6192C92920E00CC0C67 /* TroyLabsHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TroyLabsHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBF8C61C2C92920E00CC0C67 /* TroyLabsHackathonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroyLabsHackathonApp.swift; sourceTree = "<group>"; };
-		EBF8C61E2C92920E00CC0C67 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EBF8C6202C92921000CC0C67 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EBF8C6232C92921000CC0C67 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		EBF8C6292C92921000CC0C67 /* TroyLabsHackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroyLabsHackathonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBF8C62D2C92921000CC0C67 /* TroyLabsHackathonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroyLabsHackathonTests.swift; sourceTree = "<group>"; };
-		EBF8C6332C92921000CC0C67 /* TroyLabsHackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroyLabsHackathonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBF8C6372C92921000CC0C67 /* TroyLabsHackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroyLabsHackathonUITests.swift; sourceTree = "<group>"; };
-		EBF8C6392C92921000CC0C67 /* TroyLabsHackathonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroyLabsHackathonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EBB1B40F2C93E4F50014B71D /* TroyLabsHackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TroyLabsHackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB1B4122C93E4F50014B71D /* TroyLabsHackathonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroyLabsHackathonApp.swift; sourceTree = "<group>"; };
+		EBB1B4162C93E4F70014B71D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBB1B4192C93E4F70014B71D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EBB1B41F2C93E4F70014B71D /* TroyLabsHackathonTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroyLabsHackathonTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB1B4232C93E4F70014B71D /* TroyLabsHackathonTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroyLabsHackathonTests.swift; sourceTree = "<group>"; };
+		EBB1B4292C93E4F70014B71D /* TroyLabsHackathonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TroyLabsHackathonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBB1B42D2C93E4F70014B71D /* TroyLabsHackathonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroyLabsHackathonUITests.swift; sourceTree = "<group>"; };
+		EBB1B42F2C93E4F70014B71D /* TroyLabsHackathonUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TroyLabsHackathonUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EBB1B43C2C93E6D90014B71D /* homeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreen.swift; sourceTree = "<group>"; };
+		EBF6CAFF2C93E9A000DF8D0B /* itemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itemView.swift; sourceTree = "<group>"; };
+		EBF6CB012C93F1F600DF8D0B /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EBF8C6162C92920E00CC0C67 /* Frameworks */ = {
+		EBB1B40C2C93E4F50014B71D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBF8C6262C92921000CC0C67 /* Frameworks */ = {
+		EBB1B41C2C93E4F70014B71D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBF8C6302C92921000CC0C67 /* Frameworks */ = {
+		EBB1B4262C93E4F70014B71D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,58 +75,60 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EBF8C6102C92920E00CC0C67 = {
+		EBB1B4062C93E4F50014B71D = {
 			isa = PBXGroup;
 			children = (
-				EBF8C61B2C92920E00CC0C67 /* TroyLabsHackathon */,
-				EBF8C62C2C92921000CC0C67 /* TroyLabsHackathonTests */,
-				EBF8C6362C92921000CC0C67 /* TroyLabsHackathonUITests */,
-				EBF8C61A2C92920E00CC0C67 /* Products */,
+				EBB1B4112C93E4F50014B71D /* TroyLabsHackathon */,
+				EBB1B4222C93E4F70014B71D /* TroyLabsHackathonTests */,
+				EBB1B42C2C93E4F70014B71D /* TroyLabsHackathonUITests */,
+				EBB1B4102C93E4F50014B71D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EBF8C61A2C92920E00CC0C67 /* Products */ = {
+		EBB1B4102C93E4F50014B71D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EBF8C6192C92920E00CC0C67 /* TroyLabsHackathon.app */,
-				EBF8C6292C92921000CC0C67 /* TroyLabsHackathonTests.xctest */,
-				EBF8C6332C92921000CC0C67 /* TroyLabsHackathonUITests.xctest */,
+				EBB1B40F2C93E4F50014B71D /* TroyLabsHackathon.app */,
+				EBB1B41F2C93E4F70014B71D /* TroyLabsHackathonTests.xctest */,
+				EBB1B4292C93E4F70014B71D /* TroyLabsHackathonUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EBF8C61B2C92920E00CC0C67 /* TroyLabsHackathon */ = {
+		EBB1B4112C93E4F50014B71D /* TroyLabsHackathon */ = {
 			isa = PBXGroup;
 			children = (
-				EBF8C61C2C92920E00CC0C67 /* TroyLabsHackathonApp.swift */,
-				EBF8C61E2C92920E00CC0C67 /* ContentView.swift */,
-				EBF8C6202C92921000CC0C67 /* Assets.xcassets */,
-				EBF8C6222C92921000CC0C67 /* Preview Content */,
+				EBB1B4122C93E4F50014B71D /* TroyLabsHackathonApp.swift */,
+				EBB1B43C2C93E6D90014B71D /* homeScreen.swift */,
+				EBF6CB012C93F1F600DF8D0B /* CartView.swift */,
+				EBF6CAFF2C93E9A000DF8D0B /* itemView.swift */,
+				EBB1B4162C93E4F70014B71D /* Assets.xcassets */,
+				EBB1B4182C93E4F70014B71D /* Preview Content */,
 			);
 			path = TroyLabsHackathon;
 			sourceTree = "<group>";
 		};
-		EBF8C6222C92921000CC0C67 /* Preview Content */ = {
+		EBB1B4182C93E4F70014B71D /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				EBF8C6232C92921000CC0C67 /* Preview Assets.xcassets */,
+				EBB1B4192C93E4F70014B71D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		EBF8C62C2C92921000CC0C67 /* TroyLabsHackathonTests */ = {
+		EBB1B4222C93E4F70014B71D /* TroyLabsHackathonTests */ = {
 			isa = PBXGroup;
 			children = (
-				EBF8C62D2C92921000CC0C67 /* TroyLabsHackathonTests.swift */,
+				EBB1B4232C93E4F70014B71D /* TroyLabsHackathonTests.swift */,
 			);
 			path = TroyLabsHackathonTests;
 			sourceTree = "<group>";
 		};
-		EBF8C6362C92921000CC0C67 /* TroyLabsHackathonUITests */ = {
+		EBB1B42C2C93E4F70014B71D /* TroyLabsHackathonUITests */ = {
 			isa = PBXGroup;
 			children = (
-				EBF8C6372C92921000CC0C67 /* TroyLabsHackathonUITests.swift */,
-				EBF8C6392C92921000CC0C67 /* TroyLabsHackathonUITestsLaunchTests.swift */,
+				EBB1B42D2C93E4F70014B71D /* TroyLabsHackathonUITests.swift */,
+				EBB1B42F2C93E4F70014B71D /* TroyLabsHackathonUITestsLaunchTests.swift */,
 			);
 			path = TroyLabsHackathonUITests;
 			sourceTree = "<group>";
@@ -130,13 +136,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EBF8C6182C92920E00CC0C67 /* TroyLabsHackathon */ = {
+		EBB1B40E2C93E4F50014B71D /* TroyLabsHackathon */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBF8C63D2C92921000CC0C67 /* Build configuration list for PBXNativeTarget "TroyLabsHackathon" */;
+			buildConfigurationList = EBB1B4332C93E4F70014B71D /* Build configuration list for PBXNativeTarget "TroyLabsHackathon" */;
 			buildPhases = (
-				EBF8C6152C92920E00CC0C67 /* Sources */,
-				EBF8C6162C92920E00CC0C67 /* Frameworks */,
-				EBF8C6172C92920E00CC0C67 /* Resources */,
+				EBB1B40B2C93E4F50014B71D /* Sources */,
+				EBB1B40C2C93E4F50014B71D /* Frameworks */,
+				EBB1B40D2C93E4F50014B71D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,69 +150,69 @@
 			);
 			name = TroyLabsHackathon;
 			productName = TroyLabsHackathon;
-			productReference = EBF8C6192C92920E00CC0C67 /* TroyLabsHackathon.app */;
+			productReference = EBB1B40F2C93E4F50014B71D /* TroyLabsHackathon.app */;
 			productType = "com.apple.product-type.application";
 		};
-		EBF8C6282C92921000CC0C67 /* TroyLabsHackathonTests */ = {
+		EBB1B41E2C93E4F70014B71D /* TroyLabsHackathonTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBF8C6402C92921000CC0C67 /* Build configuration list for PBXNativeTarget "TroyLabsHackathonTests" */;
+			buildConfigurationList = EBB1B4362C93E4F70014B71D /* Build configuration list for PBXNativeTarget "TroyLabsHackathonTests" */;
 			buildPhases = (
-				EBF8C6252C92921000CC0C67 /* Sources */,
-				EBF8C6262C92921000CC0C67 /* Frameworks */,
-				EBF8C6272C92921000CC0C67 /* Resources */,
+				EBB1B41B2C93E4F70014B71D /* Sources */,
+				EBB1B41C2C93E4F70014B71D /* Frameworks */,
+				EBB1B41D2C93E4F70014B71D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EBF8C62B2C92921000CC0C67 /* PBXTargetDependency */,
+				EBB1B4212C93E4F70014B71D /* PBXTargetDependency */,
 			);
 			name = TroyLabsHackathonTests;
 			productName = TroyLabsHackathonTests;
-			productReference = EBF8C6292C92921000CC0C67 /* TroyLabsHackathonTests.xctest */;
+			productReference = EBB1B41F2C93E4F70014B71D /* TroyLabsHackathonTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		EBF8C6322C92921000CC0C67 /* TroyLabsHackathonUITests */ = {
+		EBB1B4282C93E4F70014B71D /* TroyLabsHackathonUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBF8C6432C92921000CC0C67 /* Build configuration list for PBXNativeTarget "TroyLabsHackathonUITests" */;
+			buildConfigurationList = EBB1B4392C93E4F70014B71D /* Build configuration list for PBXNativeTarget "TroyLabsHackathonUITests" */;
 			buildPhases = (
-				EBF8C62F2C92921000CC0C67 /* Sources */,
-				EBF8C6302C92921000CC0C67 /* Frameworks */,
-				EBF8C6312C92921000CC0C67 /* Resources */,
+				EBB1B4252C93E4F70014B71D /* Sources */,
+				EBB1B4262C93E4F70014B71D /* Frameworks */,
+				EBB1B4272C93E4F70014B71D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				EBF8C6352C92921000CC0C67 /* PBXTargetDependency */,
+				EBB1B42B2C93E4F70014B71D /* PBXTargetDependency */,
 			);
 			name = TroyLabsHackathonUITests;
 			productName = TroyLabsHackathonUITests;
-			productReference = EBF8C6332C92921000CC0C67 /* TroyLabsHackathonUITests.xctest */;
+			productReference = EBB1B4292C93E4F70014B71D /* TroyLabsHackathonUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EBF8C6112C92920E00CC0C67 /* Project object */ = {
+		EBB1B4072C93E4F50014B71D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
-					EBF8C6182C92920E00CC0C67 = {
+					EBB1B40E2C93E4F50014B71D = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					EBF8C6282C92921000CC0C67 = {
+					EBB1B41E2C93E4F70014B71D = {
 						CreatedOnToolsVersion = 15.4;
-						TestTargetID = EBF8C6182C92920E00CC0C67;
+						TestTargetID = EBB1B40E2C93E4F50014B71D;
 					};
-					EBF8C6322C92921000CC0C67 = {
+					EBB1B4282C93E4F70014B71D = {
 						CreatedOnToolsVersion = 15.4;
-						TestTargetID = EBF8C6182C92920E00CC0C67;
+						TestTargetID = EBB1B40E2C93E4F50014B71D;
 					};
 				};
 			};
-			buildConfigurationList = EBF8C6142C92920E00CC0C67 /* Build configuration list for PBXProject "TroyLabsHackathon" */;
+			buildConfigurationList = EBB1B40A2C93E4F50014B71D /* Build configuration list for PBXProject "TroyLabsHackathon" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +220,36 @@
 				en,
 				Base,
 			);
-			mainGroup = EBF8C6102C92920E00CC0C67;
-			productRefGroup = EBF8C61A2C92920E00CC0C67 /* Products */;
+			mainGroup = EBB1B4062C93E4F50014B71D;
+			productRefGroup = EBB1B4102C93E4F50014B71D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EBF8C6182C92920E00CC0C67 /* TroyLabsHackathon */,
-				EBF8C6282C92921000CC0C67 /* TroyLabsHackathonTests */,
-				EBF8C6322C92921000CC0C67 /* TroyLabsHackathonUITests */,
+				EBB1B40E2C93E4F50014B71D /* TroyLabsHackathon */,
+				EBB1B41E2C93E4F70014B71D /* TroyLabsHackathonTests */,
+				EBB1B4282C93E4F70014B71D /* TroyLabsHackathonUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EBF8C6172C92920E00CC0C67 /* Resources */ = {
+		EBB1B40D2C93E4F50014B71D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF8C6242C92921000CC0C67 /* Preview Assets.xcassets in Resources */,
-				EBF8C6212C92921000CC0C67 /* Assets.xcassets in Resources */,
+				EBB1B41A2C93E4F70014B71D /* Preview Assets.xcassets in Resources */,
+				EBB1B4172C93E4F70014B71D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBF8C6272C92921000CC0C67 /* Resources */ = {
+		EBB1B41D2C93E4F70014B71D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBF8C6312C92921000CC0C67 /* Resources */ = {
+		EBB1B4272C93E4F70014B71D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,49 +259,51 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EBF8C6152C92920E00CC0C67 /* Sources */ = {
+		EBB1B40B2C93E4F50014B71D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF8C61F2C92920E00CC0C67 /* ContentView.swift in Sources */,
-				EBF8C61D2C92920E00CC0C67 /* TroyLabsHackathonApp.swift in Sources */,
+				EBB1B43D2C93E6D90014B71D /* homeScreen.swift in Sources */,
+				EBB1B4132C93E4F50014B71D /* TroyLabsHackathonApp.swift in Sources */,
+				EBF6CB022C93F1F600DF8D0B /* CartView.swift in Sources */,
+				EBF6CB002C93E9A000DF8D0B /* itemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBF8C6252C92921000CC0C67 /* Sources */ = {
+		EBB1B41B2C93E4F70014B71D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF8C62E2C92921000CC0C67 /* TroyLabsHackathonTests.swift in Sources */,
+				EBB1B4242C93E4F70014B71D /* TroyLabsHackathonTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EBF8C62F2C92921000CC0C67 /* Sources */ = {
+		EBB1B4252C93E4F70014B71D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBF8C63A2C92921000CC0C67 /* TroyLabsHackathonUITestsLaunchTests.swift in Sources */,
-				EBF8C6382C92921000CC0C67 /* TroyLabsHackathonUITests.swift in Sources */,
+				EBB1B4302C93E4F70014B71D /* TroyLabsHackathonUITestsLaunchTests.swift in Sources */,
+				EBB1B42E2C93E4F70014B71D /* TroyLabsHackathonUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		EBF8C62B2C92921000CC0C67 /* PBXTargetDependency */ = {
+		EBB1B4212C93E4F70014B71D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EBF8C6182C92920E00CC0C67 /* TroyLabsHackathon */;
-			targetProxy = EBF8C62A2C92921000CC0C67 /* PBXContainerItemProxy */;
+			target = EBB1B40E2C93E4F50014B71D /* TroyLabsHackathon */;
+			targetProxy = EBB1B4202C93E4F70014B71D /* PBXContainerItemProxy */;
 		};
-		EBF8C6352C92921000CC0C67 /* PBXTargetDependency */ = {
+		EBB1B42B2C93E4F70014B71D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = EBF8C6182C92920E00CC0C67 /* TroyLabsHackathon */;
-			targetProxy = EBF8C6342C92921000CC0C67 /* PBXContainerItemProxy */;
+			target = EBB1B40E2C93E4F50014B71D /* TroyLabsHackathon */;
+			targetProxy = EBB1B42A2C93E4F70014B71D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		EBF8C63B2C92921000CC0C67 /* Debug */ = {
+		EBB1B4312C93E4F70014B71D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,7 +366,7 @@
 			};
 			name = Debug;
 		};
-		EBF8C63C2C92921000CC0C67 /* Release */ = {
+		EBB1B4322C93E4F70014B71D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -414,7 +422,7 @@
 			};
 			name = Release;
 		};
-		EBF8C63E2C92921000CC0C67 /* Debug */ = {
+		EBB1B4342C93E4F70014B71D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -442,7 +450,7 @@
 			};
 			name = Debug;
 		};
-		EBF8C63F2C92921000CC0C67 /* Release */ = {
+		EBB1B4352C93E4F70014B71D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -470,7 +478,7 @@
 			};
 			name = Release;
 		};
-		EBF8C6412C92921000CC0C67 /* Debug */ = {
+		EBB1B4372C93E4F70014B71D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -489,7 +497,7 @@
 			};
 			name = Debug;
 		};
-		EBF8C6422C92921000CC0C67 /* Release */ = {
+		EBB1B4382C93E4F70014B71D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -508,7 +516,7 @@
 			};
 			name = Release;
 		};
-		EBF8C6442C92921000CC0C67 /* Debug */ = {
+		EBB1B43A2C93E4F70014B71D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -525,7 +533,7 @@
 			};
 			name = Debug;
 		};
-		EBF8C6452C92921000CC0C67 /* Release */ = {
+		EBB1B43B2C93E4F70014B71D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -545,43 +553,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EBF8C6142C92920E00CC0C67 /* Build configuration list for PBXProject "TroyLabsHackathon" */ = {
+		EBB1B40A2C93E4F50014B71D /* Build configuration list for PBXProject "TroyLabsHackathon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBF8C63B2C92921000CC0C67 /* Debug */,
-				EBF8C63C2C92921000CC0C67 /* Release */,
+				EBB1B4312C93E4F70014B71D /* Debug */,
+				EBB1B4322C93E4F70014B71D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBF8C63D2C92921000CC0C67 /* Build configuration list for PBXNativeTarget "TroyLabsHackathon" */ = {
+		EBB1B4332C93E4F70014B71D /* Build configuration list for PBXNativeTarget "TroyLabsHackathon" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBF8C63E2C92921000CC0C67 /* Debug */,
-				EBF8C63F2C92921000CC0C67 /* Release */,
+				EBB1B4342C93E4F70014B71D /* Debug */,
+				EBB1B4352C93E4F70014B71D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBF8C6402C92921000CC0C67 /* Build configuration list for PBXNativeTarget "TroyLabsHackathonTests" */ = {
+		EBB1B4362C93E4F70014B71D /* Build configuration list for PBXNativeTarget "TroyLabsHackathonTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBF8C6412C92921000CC0C67 /* Debug */,
-				EBF8C6422C92921000CC0C67 /* Release */,
+				EBB1B4372C93E4F70014B71D /* Debug */,
+				EBB1B4382C93E4F70014B71D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBF8C6432C92921000CC0C67 /* Build configuration list for PBXNativeTarget "TroyLabsHackathonUITests" */ = {
+		EBB1B4392C93E4F70014B71D /* Build configuration list for PBXNativeTarget "TroyLabsHackathonUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBF8C6442C92921000CC0C67 /* Debug */,
-				EBF8C6452C92921000CC0C67 /* Release */,
+				EBB1B43A2C93E4F70014B71D /* Debug */,
+				EBB1B43B2C93E4F70014B71D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EBF8C6112C92920E00CC0C67 /* Project object */;
+	rootObject = EBB1B4072C93E4F50014B71D /* Project object */;
 }
